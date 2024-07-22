@@ -1,0 +1,35 @@
+En la escuela ACME necesitan ayuda con la gestión de sus cursos y alumnos. 
+Nos han pedido un programa que sea capaz de lo siguiente: 
+- Registrar a un estudiante especificando su nombre y edad (solo pueden registrarse adultos). 
+- Registrar cursos con nombre, tarifa de inscripción, fecha de inicio y fecha de finalización. 
+- Permitir a un estudiante contratar un curso, previo pago en su caso, de la tasa de inscripción 
+a través de una pasarela de pago. 
+- Una lista de cursos que han ocurrido entre un rango de fechas y sus estudiantes.
+Quieren algo sencillo por ahora, así que nos han pedido una solución en C#. 
+con una biblioteca de clases que incluye código de producción y un proyecto de prueba usando xUnit.net (cuyo 
+las pruebas deberían funcionar sin requerir ninguna intervención manual o configuración previa). 
+Por ahora no quieren ninguna dependencia de una API Web, ni de ninguna base de datos ni de 
+la pasarela de pago.
+Sin embargo, si el PoC les convence, más adelante querrán publicarlo como API y 
+persistir la información en una base de datos (aún no sabemos de qué tipo). Por lo tanto, es importante 
+que existan las abstracciones correctas y que dejemos el código listo para volver a él si 
+necesario.
+Para la evaluación se considerará lo siguiente:
+• Código limpio, fácil de leer y mantener.
+• Crear un modelo de dominio rico (aunque sabemos que actualmente, el programa no 
+no parece hacer mucho)
+• Crear las abstracciones necesarias para poder tomar decisiones más adelante y que no 
+no implica reescribir todo el código (esto incluye casos de uso, bases de datos y 
+dependencia de servicios externos como la pasarela de pagos).
+• Crear tantas pruebas como sean necesarias para demostrar la corrección del programa y 
+Sirve como una autoexplicación de lo que hace el programa.
+• Utilice, cuando sea necesario, pruebas dobles para guiar la ejecución de la prueba.
+• Un archivo README.md que explica el por qué de las cosas y cualquier otra consideración que 
+considere apropiado.
+o ¿Qué cosas te hubiera gustado hacer pero no hiciste?
+o ¿Qué cosas hiciste pero crees que podrían mejorarse o serían 
+necesario volver a ellos si el proyecto sigue adelante.
+o ¿Qué bibliotecas de terceros ha utilizado y por qué?
+El README.md puede estar escrito en inglés o español.
+Además, les gustaría saber cuánto tiempo hemos invertido en hacer el 
+proyecto y qué cosas has tenido que investigar y qué cosas eran nuevas para ti
